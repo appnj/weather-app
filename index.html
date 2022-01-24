@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="header"></h1>
+    <form id="form">
+        <input type="text" id="search" placeholder="Search by city" autocomplete="off"/>
+    </form>
+    <main id="main"></main>
+    <button id="CorF">Fahrenheit</button>
+    <div id="cont"></div>
+    <div id="cont2" onclick = "moveCont2()">
+        <h6 id="windTitle"></h6>
+        <h4 id="windSp"></h4>
+        <h4 id="windDir"></h4>
+        <h4 id="gustInfo"></h4>
+    </div>
+    <div id="cont3" onclick="moveCont3()">
+        <h6 id="statsTitle"></h6>
+        <h4 id="humidityInfo"></h4>
+        <h4 id="tempMax"></h4>
+        <h4 id="tempMin"></h4>
+    </div>
+    <div id="forecastTitle" onclick="openCont4()">5-Day Forecast</div>
+        
+    <div id="cont5"></div>
+    
+    <div id="blockCover"></div>
+    <div id="blockCover2"></div>
+            
+    <div id="day1"></div>
+    <div id="day2"></div>
+    <div id="day3"></div>
+    <div id="day4"></div>
+    <div id="day5"></div>
+
+    <div id="smalltext">click to open</div>
+
+</body>
+</html>
